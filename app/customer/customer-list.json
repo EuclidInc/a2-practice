@@ -1,0 +1,23 @@
+[
+    {
+        "fName": "Uvaraj",
+        "lName": "Thulasiram",
+        "skills": "xoxo",
+        "company": "AiyananInc",
+        "location": "Calgary"
+    },
+    {
+        "fName": "Sheeba",
+        "lName": "Yegambaram",
+        "skills": "listening",
+        "company": "AiyananInc",
+        "location": "Calgary"
+    },
+    {
+        "fName": "Atheena",
+        "lName": "Aiyanan",
+        "skills": "non-stopblabbering",
+        "company": "NowhereInc",
+        "location": "Calgary"
+    }
+]
