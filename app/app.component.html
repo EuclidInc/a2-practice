@@ -1,0 +1,5 @@
+<h1>{{pageTitle}}</h1>
+<div [innerText]="name"></div>
+<button (click)="onClick()" text="click me">
+<input type="text" [value]="name" (keyup)="name = $event.target.value">
+<input type="text" [(ngModel)]="name">

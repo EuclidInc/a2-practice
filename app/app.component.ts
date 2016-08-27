@@ -2,6 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    templateUrl: 'app/app.component.html'
 })
-export class AppComponent { }
+export class AppComponent {
+    pageTitle: string = 'Angular 2 Practice Application';
+    name: string = 'Uvaraj';
+
+    onClick() {
+        this.name = this.name === 'Uvaraj' ? 'Hero' : 'Uvaraj';
+    }
+}
